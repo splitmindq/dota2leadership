@@ -18,13 +18,7 @@ body {
     color: #21222c;
     font-family: 'Playfair Display SC';
 }
-.wrapper {
-  background-color: pink;
-  width: 100%;
-  min-height: 100vh;
-  background: transparent;
-  opacity: 1;
-}
+
 
 
 .wrapper.pre  {
@@ -417,7 +411,8 @@ span.numit {
 body
 {
     background: url(fon.jpg);
-
+ background-size: contain;
+ 
     
 }
 .music{
@@ -429,6 +424,8 @@ body
 }
 .firstplayer{
     position: relative;
+    color: #ffffff; font-family: ‘Lato’, sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px;
+    color: #adb7bd; font-family: ‘Lucida Sans’, Arial, sans-serif; font-size: 16px; line-height: 26px; text-indent: 30px; margin: 0; 
 font-size: 25px;
 font-style: italic;
 color:purple;
@@ -440,9 +437,10 @@ bottom:400px;
     color:black ;
     text-align: center;
 }
+
 .img2{
     position: relative;
-    left: 1000px;
+    left:1000px;
 }
 .prechampion{
     position: relative;
@@ -495,19 +493,21 @@ bottom:400px;
     color: cadetblue;
 }
 .vk{
-    position:fixed;
-    bottom: 20px;
-    right: 20px;
+    position:relative;
+    top: 1150px;
+    left: 10px;
 }
 
 .inst{
-    position: fixed;
-    bottom:20px;
-    right:80px;
+    position: relative;
+    top:1150px;
+    right: 10px;
 }
 .boarder1
 {
     border-radius: 2px;
 }
 
-    
+    body{
+      background-size: 2000px;
+    }
